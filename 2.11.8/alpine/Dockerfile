@@ -1,7 +1,7 @@
 # Generated automatically by update.sh
 # Do no edit this file
 
-FROM openjdk:8-alpine
+FROM frolvlad/alpine-oraclejdk8:slim
 
 # Patch to generate images in Wercker's pipelines.
 COPY env /usr/local/bin/env
